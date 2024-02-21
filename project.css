@@ -1,0 +1,201 @@
+body{
+	background-image: url("XXCSS.png");
+    position: absolute;
+    background-color: #ffffff; 
+ /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100%;
+    width: 100%;
+}
+    
+#Navbar{
+    height: 100px;
+    width: 100vw;
+}
+#NameTitle{
+    color: #ffffff;
+    display:inline-flex;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    justify-content: center;
+    align-items:end;
+    position: absolute;
+    left: 45px;
+    top: 15px;  
+    font-size: 50px;
+    height: 110px;
+    width:295px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    z-index: 5;
+
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.2px);
+    -webkit-backdrop-filter: blur(1.2px);
+    border: 1px solid rgba(0, 0, 0, 0.39);
+   
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌚</text></svg>") 16 0,auto;
+}
+
+@keyframes TextChanger {
+    0% {
+    
+        font-family: 'Belanosima', sans-serif;
+
+    }
+    10% {
+        font-family: 'Bubblegum Sans', sans-serif;
+        
+    } 
+
+    20% {
+        font-family: 'Tektur', sans-serif;
+    } 
+    30% {
+        font-family: 'Salsa', cursive;
+    
+    } 
+    40% {
+        font-family: 'Mochiy Pop One', sans-serif;
+        
+    } 
+    50% {
+        font-family: 'Cinzel', serif;
+    } 
+    60% {
+        font-family: 'Bubblegum Sans', sans-serif;
+       
+    } 
+    70% {
+        font-family: 'Salsa', cursive;
+    } 
+    80% {
+        font-family: 'Noto Serif', serif;;
+    } 
+    90% {
+        font-family: 'Secular One', sans-serif;
+
+    } 
+    100% {
+        font-family: 'Cinzel', serif;
+    } 
+
+    
+}
+
+#TopRight{
+    position: absolute;
+    height: 100px;
+    width: 70%;
+    right: 10px;
+    display:flex;
+}
+#NameTitle:hover{
+    color: #D6002D ;
+    animation: TextChanger 1.5s infinite ; 
+    }
+
+#initial{
+    color: #D6002D;
+    padding-left: 20px;
+    padding-top: 25px;
+    font-size: 75px;
+    transition: all 0.1s ease-in;
+    }    
+
+#NameTitle:hover > #initial{ display: block;
+color: #ffffff; }
+
+#namecont{
+    padding-right: 20px;
+    padding-bottom: 10px; /*Thala*/
+    letter-spacing: 4px;
+    padding-left: 5px;
+}
+
+
+.TopItems{
+    color: white;
+    position: relative;
+    top: 18px; 
+    right: -300px;
+    margin-left:45px;
+    font-size: 37px;
+    
+
+    background-color: #23232350;
+    font-family: 'Belanosima', sans-serif;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    
+    border: none;
+}
+.TopLinks{
+    text-decoration: none;
+    color: white;   
+   
+}
+
+
+.TopItems:hover{
+    transform: scale(1.25);
+   background-color: rgba(225, 225, 225, 0);
+   text-shadow: 1px 1px 7px 7px rgb(225, 225, 225);
+   border:none;
+   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👁️</text></svg>") 16 0,auto;
+}
+
+.TopItems:hover > .TopLinks{
+    color: #D6002D; 
+    text-decoration:wavy;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👁️</text></svg>") 16 0,auto;
+}
+
+#connect{
+    padding-right: 10px ;
+}
+
+.bg-body-tertiary{
+    position: absolute;
+    bottom: 10px;
+
+}
+
+
+.jumbotron{
+    position: relative;
+    top: 100px;
+    color: aquamarine;
+    margin: 25px 15px 20px 60px;
+
+
+}
+
+#Banner{
+    background-image:"XXXBANNER.png" ;
+    
+}
+
+
+.text-center-p-3{
+    position: absolute;
+    bottom: 10px;
+  
+}
+
+footer{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  padding-left: 42%;
+
+   text-align: center;
+}
+
+#Lamba{
+    position: absolute;
+    top: 20px;
+}
