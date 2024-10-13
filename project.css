@@ -98,7 +98,7 @@ radial-gradient(at 81% 47%, #c50831 0px, transparent);
     backdrop-filter: blur(1.2px);
     -webkit-backdrop-filter: blur(1.2px);
     border: 1px solid rgba(0, 0, 0, 0.39);
-      animation: fromleft 1800ms ease-out;
+      /* animation: fromleft 1800ms ease-out; */
 
     
     
@@ -106,7 +106,7 @@ radial-gradient(at 81% 47%, #c50831 0px, transparent);
 
 
 #TopRight{
-    animation: fromright 900ms ease;
+    /* animation: fromright 900ms ease; */
     height: 9.2593vmin;
     width: 50%;
     display:flex;
@@ -325,9 +325,9 @@ footer{
   }
 
   #page2 h2{
-    animation: appearUp ease-out;
+    /* animation: appearUp ease-out;
     animation-range: entry 0% cover 30%;
-    animation-timeline: view();
+    animation-timeline: view(); */
     font-family: 'Belanosima', sans-serif;
     font-size: 7vmin;
   }
@@ -395,9 +395,9 @@ footer{
  
 
   table, th, td {
-    animation: appearUp ease;
+    /* animation: appearUp ease;
     animation-range: entry 0% cover 30%;
-    animation-timeline: view();
+    animation-timeline: view(); */
     background-color:  rgba(0, 0, 0, 0.26);
     font-size: large;
     border: 3px solid #7a0035cd;
@@ -422,7 +422,7 @@ footer{
     border: 0.963vmin solid #161616;
 
   }
-
+/* 
   #card1{
     animation: fromleft 300ms ease-out;
     animation-timeline: view();
@@ -434,7 +434,7 @@ footer{
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
   }
-  
+   */
 
 #page3{
     font-family: 'Belanosima', sans-serif;
@@ -448,9 +448,9 @@ footer{
 }
 
 #page3 h2{
-  animation: appearUp 400ms ease-out;
+  /* animation: appearUp 400ms ease-out;
     animation-range: entry 0% cover 30%;
-    animation-timeline: view();
+    animation-timeline: view(); */
     font-family: 'Belanosima', sans-serif;
     font-size: 7vmin;
   }
