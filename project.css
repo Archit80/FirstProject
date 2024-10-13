@@ -17,7 +17,7 @@ radial-gradient(at 81% 47%, #c50831 0px, transparent);
    font-weight:lighter;
    background-repeat: repeat;
   background-image: cover;
-   cursor: url("http://www.rw-designer.com/cursor-view/205245.png"),default;
+   cursor: url("http://www.rw-designer.com/cursor-view/205245.png");
     padding-right: 5vmin;
     height: 100%;
     width: 100%;
@@ -158,13 +158,13 @@ color: #ffffff; }
    background-color: rgba(225, 225, 225, 0);
    text-shadow: 1px 1px 7px 7px rgb(225, 225, 225);
    border:none;
-   cursor:none;
-   cursor: url("http://www.rw-designer.com/cursor-view/205247.png"),default;
+
+   cursor: url("http://www.rw-designer.com/cursor-view/205247.png");
 }
 
 .TopItems:hover > .TopLinks{
     color: #D6002D; 
-    cursor:url("http://www.rw-designer.com/cursor-view/205247.png"),url("http://www.rw-designer.com/cursor-view/205247.png"),default;
+    cursor:url("http://www.rw-designer.com/cursor-view/205247.png"),url("http://www.rw-designer.com/cursor-view/205247.png");
 }
 
 #connect{
